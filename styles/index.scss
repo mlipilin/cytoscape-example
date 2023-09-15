@@ -160,9 +160,37 @@ h2 {
 }
 
 /** Node HTML Label plugin */
-.cy-node__content {
-  /* background-color: red; */
-  color: #41474D;
-  font-size: 16px;
-  padding-top: 40px;
+// .cy-node__content {
+//   /* background-color: red; */
+//   color: #41474D;
+//   font-size: 16px;
+//   padding-top: 40px;
+// }
+
+.cy-popper__content {
+  padding-top: 5px;
+  z-index: 999;
+  
+  textarea {
+    background-color: transparent;
+    background-color: #f4f4f5;
+    background-color: #fff;
+    // background-color: red;
+    border: none;
+    border: 1px solid #CCCCCC;
+    border: 1px solid #3E9AFF;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #535665;
+    font-family: inherit;
+    font-size: 12px;
+    height: 17px;
+    padding: 2px 0 0;
+    resize: none;
+    text-align: center;
+
+    &:focus {
+      outline: none;
+    }
+  }
 }

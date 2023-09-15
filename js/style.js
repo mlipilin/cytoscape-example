@@ -1,7 +1,7 @@
 const colorBackground = "#f4f4f5";
 const colorEdge = "#969696";
 const colorText = "#535665";
-const colorBorder = "#CDD7DD";
+const colorBorder = "#cccccc";
 const colorBorderHighlight = "#3E9AFF";
 
 const style = [
@@ -20,7 +20,7 @@ const style = [
       color: colorText,
       "font-size": "17px",
       "font-weight": 500,
-      "text-margin-y": 115,
+      "text-margin-y": 95,
       "text-background-opacity": 0.8,
       "text-background-color": colorBackground,
       "text-background-padding": 3,

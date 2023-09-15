@@ -10,6 +10,7 @@ import setupUndoRedo from "./js/undo-redo";
 import setupEdgeEditing from "./js/edge-editing";
 import setupEdgehandles from "./js/edgehandles";
 import setupGridGuide from "./js/grid-guide";
+import setupPopper from "./js/popper";
 
 import "./js/dblclick";
 
@@ -31,6 +32,7 @@ setupUndoRedo(cy);
 setupEdgeEditing(cy);
 setupEdgehandles(cy);
 setupGridGuide(cy);
+setupPopper(cy);
 setupCompoundDragAndDrop(cy);
 
 addEventListeners(cy);
