@@ -1,5 +1,10 @@
+/* Fonts */
+@import "./fonts/Muller/font.scss";
+
 body {
   background-color: #f4f4f5;
+  font-family: Muller, sans-serif;
+  font-size: 14px;
   margin: 0;
 }
 
@@ -152,4 +157,12 @@ h2 {
 /* Remove edge-editing plugin controms from context menu */
 .cy-context-menus-cxt-menuitem[id^=cy-edge] {
   display: none !important;
+}
+
+/** Node HTML Label plugin */
+.cy-node__content {
+  /* background-color: red; */
+  color: #41474D;
+  font-size: 16px;
+  padding-top: 40px;
 }

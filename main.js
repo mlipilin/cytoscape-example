@@ -15,7 +15,7 @@ import "./js/dblclick";
 
 import style from "./js/style";
 
-import "./style.css";
+import "./styles/index.scss";
 
 const cy = cytoscape({
   container: document.getElementById("cy"),
