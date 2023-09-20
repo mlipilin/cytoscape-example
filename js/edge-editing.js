@@ -3,10 +3,8 @@ import $ from "jquery";
 import Konva from "konva";
 import edgeEditing from "cytoscape-edge-editing";
 import { cytoscapeEdgeEditing } from "cytoscape-edge-editing";
-import edgeEditing1 from "cytoscape-edge-editing";
 console.log("edgeEditing", edgeEditing);
 console.log("cytoscapeEdgeEditing", cytoscapeEdgeEditing);
-console.log("edgeEditing1", edgeEditing1);
 edgeEditing(cytoscape, $, Konva);
 
 function setup(cy) {
