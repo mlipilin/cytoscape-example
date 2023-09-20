@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/16/Comment@2x</title>
+    <g id="Icons/16/Comment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Piece-of-Magic" fill="#3C4650" opacity="0.00999999978">
+            <rect id="Rectangle" x="15.5" y="15.5" width="1" height="1"></rect>
+            <rect id="Rectangle" x="0" y="0" width="1" height="1"></rect>
+        </g>
+        <path d="M8,13.9447918 C11.8659932,13.9447918 15,11.2708591 15,7.97239589 C15,4.67393272 11.8659932,2 8,2 C4.13400675,2 1,4.67393272 1,7.97239589 C1,9.54946856 1.71644039,10.9837723 2.88678033,12.0513074 C3.16527577,12.3053393 2.55555556,12.7503126 1.77777778,13.5466321 C1.46005118,13.871933 2.48800471,14.1133039 3.33333333,13.9447918 C4.07411144,13.7971213 4.94532556,13.3519384 5.17517219,13.4385318 C6.03915264,13.7640314 6.99483483,13.9447918 8,13.9447918 Z" id="Shape" fill="#41474D"></path>
+    </g>
+</svg>

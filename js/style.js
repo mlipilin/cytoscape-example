@@ -24,8 +24,8 @@ const style = [
       "text-background-opacity": 0.8,
       "text-background-color": colorBackground,
       "text-background-padding": 3,
-      "background-height": 48,
-      "background-width": 48,
+      "background-height": 32,
+      "background-width": 32,
     },
   },
   {

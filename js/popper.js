@@ -41,14 +41,10 @@ function setup(cy) {
           input.value = node.data()?.text;
 
           div.appendChild(input);
-
           document.body.appendChild(div);
 
           input.focus();
-
           input.addEventListener("keyup", handleInputKeyUp);
-
-          // TODO: add event listeners for input
 
           return div;
         },

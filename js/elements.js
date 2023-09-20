@@ -1,6 +1,12 @@
 import icons from "./icons";
 
-const ICONS = [icons.calendar, icons.database, icons.globe];
+const ICONS = [
+  icons.comment,
+  icons.flow,
+  icons.calendar,
+  icons.database,
+  icons.globe,
+];
 
 const nodes = [
   {
@@ -19,7 +25,7 @@ const nodes = [
       type: "component",
     },
     position: { x: 800, y: 300 },
-    style: { ...ICONS[0] },
+    style: { ...ICONS[1] },
   },
   {
     data: {
@@ -37,7 +43,7 @@ const nodes = [
       type: "component",
     },
     position: { x: 1000, y: 700 },
-    style: { ...ICONS[0] },
+    style: { ...ICONS[1] },
   },
   {
     data: {
@@ -55,7 +61,7 @@ const nodes = [
       type: "component",
     },
     position: { x: 200, y: 900 },
-    style: { ...ICONS[0] },
+    style: { ...ICONS[1] },
   },
   {
     data: {
@@ -73,7 +79,7 @@ const nodes = [
       type: "component",
     },
     position: { x: 1000, y: 1100 },
-    style: { ...ICONS[0] },
+    style: { ...ICONS[1] },
   },
   {
     data: {
@@ -91,7 +97,7 @@ const nodes = [
       type: "component",
     },
     position: { x: 1400, y: 700 },
-    style: { ...ICONS[0] },
+    style: { ...ICONS[1] },
   },
 ];
 const edges = [
