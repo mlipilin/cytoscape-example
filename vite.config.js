@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import inject from "@rollup/plugin-inject";
+import { esbuildCommonjs } from "@originjs/vite-plugin-commonjs";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -11,4 +12,14 @@ export default defineConfig({
     }),
   ],
   base: "cytoscape-example",
+  build: {
+    commonjsOptions: {
+      transformMixedEsModules: true,
+    },
+  },
+  optimizeDeps: {
+    esbuildOptions: {
+      plugins: [esbuildCommonjs(["cytoscape-edge-editing"])],
+    },
+  },
 });

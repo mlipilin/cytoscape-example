@@ -1,11 +1,11 @@
 import cytoscape from "cytoscape";
-import $ from "jquery";
-import Konva from "konva";
-import * as edgeEditing from "cytoscape-edge-editing";
-// import { cytoscapeEdgeEditing } from "cytoscape-edge-editing";
-console.log("edgeEditing", edgeEditing);
-// console.log("cytoscapeEdgeEditing", cytoscapeEdgeEditing);
-edgeEditing(cytoscape, $, Konva);
+// import $ from "jquery";
+// import Konva from "konva";
+// var edgeEditing = require("cytoscape-edge-editing");
+
+console.log("cytoscapeEdgeEditing", cytoscapeEdgeEditing);
+
+cytoscapeEdgeEditing(cytoscape, $, Konva);
 
 function setup(cy) {
   console.log("edge-editing.js setup", cy);
