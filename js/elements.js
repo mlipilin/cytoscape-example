@@ -1,11 +1,11 @@
 import icons from "./icons";
 
 const ICONS = [
+  icons.database,
+  icons.globe,
   icons.comment,
   icons.flow,
   icons.calendar,
-  icons.database,
-  icons.globe,
 ];
 
 const nodes = [
