@@ -10,4 +10,5 @@ export default defineConfig({
       jQuery: "jquery",
     }),
   ],
+  base: "cytoscape-example",
 });
