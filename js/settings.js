@@ -2,7 +2,7 @@
   const LOCAL_STORAGE_KEY = "wheel-sensitivity";
 
   const wheelSensitivityEl = document.getElementById("wheel-sensitivity");
-  const wheelSensitivityValue = localStorage.getItem(LOCAL_STORAGE_KEY);
+  const wheelSensitivityValue = localStorage.getItem(LOCAL_STORAGE_KEY) || "";
   wheelSensitivityEl.value = wheelSensitivityValue;
   console.log("wheelSensitivityValue", wheelSensitivityValue);
 
