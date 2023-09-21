@@ -15,13 +15,20 @@ import setupPopper from "./js/popper";
 import "./js/dblclick";
 
 import style from "./js/style";
+import "./js/settings";
 
 import "./styles/index.scss";
+
+const wheelSensitivityLocalStorage = localStorage.getItem("wheel-sensitivity");
+console.log("wheelSensitivityLocalStorage", wheelSensitivityLocalStorage);
 
 const cy = cytoscape({
   container: document.getElementById("cy"),
   style,
   zoom: 0.5,
+  ...(wheelSensitivityLocalStorage
+    ? { wheelSensitivity: +wheelSensitivityLocalStorage }
+    : {}),
 });
 cy.add(elements);
 
